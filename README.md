@@ -12,9 +12,9 @@ This page lists upcoming hackathons in Europe.
 <details>
 <summary>More Info</summary>
 
-**Description:** {{ hackathon.description }}
-**Topics:** {{ hackathon.topics }}
-**Prizes:** {{ hackathon.prizes }}
+- Description: {{ hackathon.description }}
+- Topics: {{ hackathon.topics }}
+- Prizes: {{ hackathon.prizes }}
 
 </details>
 ---
