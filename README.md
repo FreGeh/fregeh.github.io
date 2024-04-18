@@ -2,7 +2,8 @@
 
 This page lists upcoming hackathons in Europe.
 
-{% for hackathon in site.data.hackathons %}
+{% assign sorted_hackathons = site.data.hackathons | sort: 'date' %}
+{% for hackathon in sorted_hackathons %}
 ## {{ hackathon.name }}
 
 **Location:** {{ hackathon.location }}  
